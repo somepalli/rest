@@ -5,7 +5,7 @@ REST Services With Django Rest Framework
 <b> Installing </b>
 ```sh
 $ pip install -r requirements.txt
-$ pip install pip install psycopg2
+$ pip install psycopg2
 ```
 <b> Configuration </b>
 > Configure the db with postgres in settings. Create the tables as shown in the models. Run the migrations as shown below. <b>Syncdb</b> is deprecated from the version 1.9.
