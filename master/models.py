@@ -8,6 +8,7 @@ class MasterStatus(models.Model):
     id = models.BigIntegerField(primary_key=True)
     type = models.CharField(unique=True, max_length=10)
     last_updated_date = models.DateTimeField()
+    # last_updated_by = models.DateTimeField()
 
     class Meta:
         managed = False
@@ -22,7 +23,7 @@ class MasterRepaymentType(models.Model):
     last_modified_date = models.DateTimeField()
     last_modified_by = models.BigIntegerField()
     # fk_sci_client = models.ForeignKey('SciMasterClient')
-    master_repayment_type_json = models.TextField(blank=True, null=True)  # This field type is a guess.
+    # master_repayment_type_json = models.TextField(blank=True, null=True)  # This field type is a guess.
 
     def __unicode__(self):
        return u'%s' % (self.repayment_type_name)
