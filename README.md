@@ -1,7 +1,7 @@
 # rest
 [![Build Status](https://travis-ci.org/somepalli/rest.svg?branch=master)](https://travis-ci.org/somepalli/rest) <br />
 Simple Example for REST Services With Django Rest Framework
-
+>Create the Python Virtual environment and clone the project and follow the below steps.
 <b> Installing </b>
 ```sh
 $ pip install -r requirements.txt
