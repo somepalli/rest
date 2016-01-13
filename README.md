@@ -1,6 +1,6 @@
 # rest
 [![Build Status](https://travis-ci.org/somepalli/rest.svg?branch=master)](https://travis-ci.org/somepalli/rest) <br />
-REST Services With Django Rest Framework
+Simple Example for REST Services With Django Rest Framework
 
 <b> Installing </b>
 ```sh
@@ -8,6 +8,9 @@ $ pip install -r requirements.txt
 ```
 <b> Configuration </b>
 > Configure the db with postgres in settings. Create the tables as shown in the models. Run the migrations as shown below. <b>Syncdb</b> is deprecated from the version 1.9.
+
+<b> Database </b>
+> Use the <b>rest.sql</b> for creating database and tables.
 
 <b> Run Migration</b>
 ```sh
