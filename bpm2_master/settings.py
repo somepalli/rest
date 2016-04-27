@@ -40,7 +40,13 @@ INSTALLED_APPS = [
     'rest_framework',
     'master',
     'debug_toolbar',
+    'rest_framework_swagger',
 ]
+REST_FRAMEWORK = {
+    'DEFAULT_PARSER_CLASSES': (
+        'rest_framework.parsers.JSONParser',
+    )
+}
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',

@@ -30,3 +30,13 @@ class MasterRepaymentType(models.Model):
         managed = False
         db_table = 'master_repayment_type'
 
+class MasterAuthor(models.Model):
+    # testid = models.BigIntegerField()
+    author = models.CharField(unique=True, max_length=10)
+    text = models.CharField(unique=True, max_length=10)
+
+    class Meta:
+        managed = False
+        db_table = 'master_author'
+    def __unicode__(self):
+        return u'%d: %s' % (self.author)
